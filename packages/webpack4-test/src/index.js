@@ -1,3 +1,3 @@
-import { FaTimes } from "react-icons/fa";
+import { VdAlertCircleOutline } from "react-icons/vd";
 
-console.log(FaTimes);
+console.log(VdAlertCircleOutline);

@@ -3,10 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 import { IconContext } from "react-icons";
-import { FaFolder } from "react-icons/fa";
-import { MdAccessibility } from "react-icons/md";
-import { TiArrowDown } from "react-icons/ti";
-import { GrGrommet } from "react-icons/gr";
+import { VdActivityOutline } from "react-icons/vd";
 
 class App extends Component {
   render() {
@@ -20,22 +17,13 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
           <IconContext.Provider
             value={{
-              color: "blue",
+              color: "red",
               className: "global-class-name",
-              attr: { focusable: "false" }
+              attr: { focusable: "true" }
             }}
           >
-            <MdAccessibility />
-            <FaFolder
-              color="red"
-              title="folder icon"
-              className="additional-class-name"
-            />
+            <VdActivityOutline  color="blue" size={56}/>
           </IconContext.Provider>
-          <MdAccessibility />
-          <FaFolder />
-          <TiArrowDown title="arrow down icon" />
-          <GrGrommet />
         </p>
       </div>
     );
