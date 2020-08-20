@@ -1,41 +1,35 @@
-<img src="https://rawgit.com/gorangajic/react-icons/master/react-icons.svg" width="120" alt="React Icons">
-
-# [React Icons Clone](https://react-icons.netlify.com)
+# [Acmesquita Icons](https://react-icons.netlify.com)
 
 [![npm][npm-image]][npm-url]
 
 [npm-image]: https://img.shields.io/npm/v/react-icons.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/react-icons
+[npm-url]: https://www.npmjs.com/package/acmesquita-icons
 
-Include popular icons in your React projects easily with `react-icons`, which utilizes ES6 imports that allows you to include only the icons that your project is using.
 
 ## Installation
 
 ### Yarn
 ```bash
-yarn add react-icons
+yarn add acmesquita-icons
 ```
 
 ### NPM
 ```bash
-npm install react-icons --save
+npm install acmesquita-icons --save
 ```
 
 ## Usage
 
 ```jsx
-import { FaBeer } from 'react-icons/fa';
+import { AcBeer } from 'acmesquita-icons/ac';
 
 class Question extends React.Component {
     render() {
-        return <h3> Lets go for a <FaBeer />? </h3>
+        return <h3> Lets go for a <AcBeer />? </h3>
     }
 }
 ```
 
-[View the documentation](https://react-icons.netlify.com) for further usage examples and how to use icons from other packages. *NOTE*: each Icon package has it's own subfolder under `react-icons` you import from.
-
-For example, to use an icon from **Material Design**, your import would be: `import { ICON_NAME } from 'react-icons/md';`
 
 ## Configuration
 
@@ -61,40 +55,6 @@ import { IconContext } from "react-icons";
 | `style`     | `undefined`           | Can overwrite size and color    |
 | `attr`      | `undefined`           | Overwritten by other attributes |
 | `title`     | `undefined`           | Icon description for accessibility |
-
-## Migrating from version 2 -> 3
-
-### Change import style
-
-Import path has changed. You need to rewrite from the old style.
-
-```jsx
-// OLD IMPORT STYLE
-import FaBeer from 'react-icons/lib/fa/beer';
-
-class Question extends React.Component {
-    render() {
-        return <h3> Lets go for a <FaBeer />? </h3>
-    }
-}
-```
-
-```jsx
-// NEW IMPORT STYLE
-import { FaBeer } from 'react-icons/fa';
-
-class Question extends React.Component {
-    render() {
-        return <h3> Lets go for a <FaBeer />? </h3>
-    }
-}
-```
-
-Ending up with a large JS bundle? Check out [this issue](https://github.com/react-icons/react-icons/issues/154).
-
-### Adjustment CSS
-
-From version 3, `vertical-align: middle` is not automatically given. Please use IconContext to specify className or specify an inline style.
 
 #### Global Inline Styling
 
@@ -132,8 +92,6 @@ yarn remove @types/react-icons
 npm remove @types/react-icons
 ```
 
-## Contributing
-
 ### Development
 
 ```bash
@@ -151,17 +109,6 @@ cd packages/react-icons
 yarn build
 
 cd ../preview
-yarn start
-```
-
-### Demo
-The demo is a [Create React App](https://create-react-app.dev/) boilerplate with `react-icons` added as a dependency for easy testing.
-
-```bash
-cd packages/react-icons
-yarn build
-
-cd ../demo
 yarn start
 ```
 
