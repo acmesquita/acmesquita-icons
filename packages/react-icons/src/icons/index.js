@@ -3,15 +3,15 @@ const path = require("path");
 module.exports = {
   icons: [
     {
-      id: "vd",
-      name: "Vindi Icons",
+      id: "ac",
+      name: "Acmesquita Icons",
       contents: [
         {
           files: path.resolve(
             __dirname,
             "icons-svg/*.svg"
           ),
-          formatter: name => `Vd${name}`
+          formatter: name => `Ac${name}`
         }
       ],
       projectUrl: "http://github.com/acmesquita",

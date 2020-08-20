@@ -3,7 +3,7 @@ import copy from "copy-to-clipboard";
 import Highlight, { defaultProps } from "prism-react-renderer";
 import PrismTheme from "prism-react-renderer/themes/nightOwl";
 import React from "react";
-import { VdClipboardOutline } from "react-icons/vd";
+import { AcClipboardOutline } from "acmesquita-icons/ac";
 
 export default function CodeBlock({ code }) {
   const copyToClipboard = () => {
@@ -23,7 +23,7 @@ export default function CodeBlock({ code }) {
       {({ className, style, tokens, getLineProps, getTokenProps }) => (
         <pre className={`${className} code`} style={style}>
           <a onClick={copyToClipboard} className="prism-code--copy">
-            <VdClipboardOutline />
+            <AcClipboardOutline />
           </a>
           {tokens.map((line, i) => (
             <div {...getLineProps({ line, key: i })}>

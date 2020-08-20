@@ -1,24 +1,16 @@
 {
-  "name": "vindi-icons",
-  "version": "1.0.0",
+  "name": "acmesquita-icons",
+  "version": "1.0.1",
   "description": "SVG React icons",
   "author": "Goran Gajic",
   "contributors": [
     "kamijin_fanta <kamijin@live.jp>",
-    "amesquita <catha.ana.1994@gmail.com>"
+    "acmesquita <catha.ana.1994@gmail.com>"
   ],
   "license": "MIT",
   "main": "lib",
   "types": "./lib/esm/index.d.ts",
   "sideEffects": false,
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com:react-icons/react-icons.git"
-  },
-  "bugs": {
-    "url": "https://github.com/react-icons/react-icons/issues"
-  },
-  "homepage": "https://github.com/react-icons/react-icons#readme",
   "peerDependencies": {
     "react": "*"
   },

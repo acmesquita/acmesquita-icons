@@ -15,6 +15,7 @@
     "@loadable/component": "^5.10.3",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
+    "acmesquita-icons": "^1.0.1",
     "babel-plugin-codegen": "^3.1.0",
     "basscss": "^8.1.0",
     "cogo-toast": "^4.1.1",
@@ -25,7 +26,6 @@
     "prism-react-renderer": "^1.0.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-icons": "^3.10.1-snapshot.0",
     "tiny-skeleton-loader-react": "^1.1.0"
   },
   "devDependencies": {

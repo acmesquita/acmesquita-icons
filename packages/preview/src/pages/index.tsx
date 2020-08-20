@@ -15,7 +15,7 @@ export default function HomePage() {
       </p>
 
       <h2>Installation</h2>
-      <CodeBlock code={`npm install react-icons --save`} />
+      <CodeBlock code={`npm install acmesquita-icons --save`} />
 
       <h2>Usage</h2>
       <CodeBlock code={HOME_USAGE} />
