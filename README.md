@@ -1,4 +1,4 @@
-# [Acmesquita Icons](https://react-icons.netlify.com)
+# Acmesquita Icons
 
 [![npm][npm-image]][npm-url]
 
